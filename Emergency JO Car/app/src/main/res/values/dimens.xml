@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_header">22sp</dimen>
+    <dimen name="border_radius">5dp</dimen>
+
+        <dimen name="width_logo_login">100dp</dimen>
+        <dimen name="height_logo_login">100dp</dimen>
+
+        <dimen name="width_input_box">300dp</dimen>
+        <dimen name="height_input_box">55dp</dimen>
+        <dimen name="text_size_input_box">18sp</dimen>
+
+        <dimen name="width_button">110dp</dimen>
+        <dimen name="height_button">40dp</dimen>
+        <dimen name="text_size_button">22sp</dimen>
+
+
+        <dimen name="width_btn_login">110dp</dimen>
+        <dimen name="height_btn_login">40dp</dimen>
+        <dimen name="width_btn_get_signup">200dp</dimen>
+
+        <dimen name="width_personal_id_signup">200dp</dimen>
+        <dimen name="width_registration_number">115dp</dimen>
+
+        <dimen name="width_box_name_signup">325dp</dimen>
+
+        <dimen name="height_box_signup">55dp</dimen>
+
+
+        <dimen name="width_gover_signup">195dp</dimen>
+        <dimen name="width_gender_signup">150dp</dimen>
+        <dimen name="width_stroke_button">2dp</dimen>
+
+        <dimen name="width_lock_icon">30dp</dimen>
+        <dimen name="height_lock_icon">30dp</dimen>
+        <dimen name="height_menu_icon">30dp</dimen>
+        <dimen name="width_menu_icon">30dp</dimen>
+    <dimen name="height_under_picture">80dp</dimen>
+        <dimen name="width_user_icon">30dp</dimen>
+        <dimen name="height_user_icon">30dp</dimen>
+        <dimen name="height_request_layout">170dp</dimen>
+        <!--new  -->
+        <dimen name="width_box_login">300dp</dimen>
+        <dimen name="height_box_login">40dp</dimen>
+        <dimen name="text_size">16sp</dimen>
+        <dimen name="text_size_btn">24sp</dimen>
+        <dimen name="height_button_admin">40dp</dimen>
+        <dimen name="width_list_admin">150dp</dimen>
+        <dimen name="text_size_tv">20sp</dimen>
+        <dimen name="width_box_form">200dp</dimen>
+        <dimen name="height_logo_admin">150dp</dimen>
+        <dimen name="height_photo_request">100dp</dimen>
+        <dimen name="height_description_request">100dp</dimen>
+        <dimen name="text_size_header_admin">30sp</dimen>
+        <dimen name="width_button_car">300dp</dimen>
+        <dimen name="height_button_car">50dp</dimen>
+        <dimen name="width_military_name">300dp</dimen>
+
+
+</resources>

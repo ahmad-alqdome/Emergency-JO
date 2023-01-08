@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Emergency  Jo Admin</string>
+    <string name="hint_user_name">اسم المستخدم</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="forget_password">هل نسيت كلمة المرور ؟</string>
+    <string name="app_name_emergency_jo">Emergency Jo</string>
+    <string name="requests_btn">طلب</string>
+    <string name="add_car">اضافة سيارة</string>
+    <string name="remove_car">ازالة سيارة</string>
+    <string name="btn_setting">الاعدادات</string>
+    <string name="cars_info">معلومات السيارات</string>
+    <string name="edit_car">تعديل معلومات سيارة</string>
+    <string name="false_requests">البلاغات الكاذبة</string>
+    <string name="show_location_notification">عرض الموقع</string>
+    <string name="car_number">رقم السيارة</string>
+    <string name="car_name">اسم السيارة</string>
+    <string name="car_model">موديل السيارة</string>
+    <string name="hint_car_number">12\-3456789</string>
+    <string name="hint_car_name">Toyota</string>
+    <string name="hint_car_model">1999</string>
+    <string name="military_name">اسم السائق</string>
+    <string name="military_number">الرقم العسكري</string>
+    <string name="hint_military_number">0000000000</string>
+    <string name="hint_military_name">اسم السائق</string>
+    <string name="username_car">اسم المستخدم</string>
+    <string name="re_password">اعادة كلمة المرور</string>
+    <string name="btn_confirmation">تاكيد</string>
+    <string name="btn_get">جلب</string>
+
+    <string name="message_empty_error">لا يمكن ان يكون فارغ</string>
+    <string name="message_account_found">لديك حساب بلفعل</string>
+    <string name="title_message_found">موجود</string>
+    <string name="title_message_done">تمت العملية</string>
+    <string name="car_type">نوع السيارة</string>
+    <string name="delete">حذف</string>
+    <string name="log_out">تسجيل خروج</string>
+
+    <array name="type_car">
+        <item>Ambulance</item>
+        <item>FireTruck</item>
+    </array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="cause_name">اسم الحدث</string>
+    <string name="add_common_causes">اضافة حدث متوقع</string>
+    <string name="cause_description">وصف الحدث</string>
+    <string name="enter_cause_description">ادخل وصف الحدث</string>
+    <string name="enter_cause_name">اسم الحدث</string>
+    <string name="common_cases">الحوادث الشائعة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="Add_common">اضافة</string>
+    <string name="send_request">ارسال طلب</string>
+    <string name="show_location">عرض الموقع</string>
+    <string name="remove_request">ازالة الطلب</string>
+    <string name="false_request">بلاغ كاذب</string>
+    <string name="btn_accepted_request">طلب مقبول</string>
+    <string name="search_car">البحث عن سيارة</string>
+    <string name="car_info">معلومات السيارات</string>
+    <string name="label_car_number">رقم السيارة:</string>
+    <string name="label_car_name">اسم السيارة:</string>
+    <string name="label_car_model">موديل السيارة :</string>
+    <string name="label_military_name">اسم السائق :</string>
+    <string name="label_military_number">الرقم العسكري:</string>
+    <string name="label_username">اسم المستحدم:</string>
+    <string name="label_password">كلمة المرور:</string>
+    <string name="label_car_type">نوع السيارة :</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="btn_remove">ازالة</string>
+    <string name="car">سيارة</string>
+
+
+    <!-- drawer nav -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="message_remove_request">هل انت متاكد من ازالة الطلب ؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <!--common cases-->
+    <string name="enter_option_1">ادخل الخيار الاول</string>
+    <string name="enter_option_2">ادخل الخيار الثاني</string>
+    <string name="enter_option_3">ادخل الخيار الثالث</string>
+    <string name="option1">الخيار الاول</string>
+    <string name="option2">الخيار الثاني</string>
+    <string name="option3">الخيار الثالث</string>
+
+    <string name="message_false_request">هل انت متاكد بانه بلاغ كاذب؟</string>
+    <string name="english">انجليزي</string>
+    <string name="arabic">عربي</string>
+
+    <string name="accident_name">اسم الحادث</string>
+    <string name="enter_accident">ادخل الحادث</string>
+    <string name="hint_email">البريد الالكتروني</string>
+    <string name="done">تمت</string>
+
+
+</resources>

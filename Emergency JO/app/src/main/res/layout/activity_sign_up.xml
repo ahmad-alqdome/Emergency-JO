@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="0dp"
+    tools:context=".SignUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+        android:id="@+id/header_id"
+        layout="@layout/toolbarsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/user_icon_login" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_personal_id_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="-7dp">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/et_check_number_signup_id"
+            android:layout_width="@dimen/width_registration_number"
+            android:layout_height="@dimen/height_input_box"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="227dp"
+            android:layout_marginTop="78dp"
+            android:layout_toEndOf="@+id/et_personal_id_layout"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/hint_registration_number"
+            android:inputType="number|text"
+            android:textSize="@dimen/text_size_input_box" />
+
+        <Button
+            android:id="@+id/btn_get_data_id"
+            android:layout_width="@dimen/width_btn_get_signup"
+            android:layout_height="@dimen/height_button"
+            android:layout_below="@+id/et_personal_id_layout"
+            android:layout_alignEnd="@+id/et_check_number_signup_id"
+            android:layout_marginTop="111dp"
+            android:layout_marginEnd="94dp"
+            android:background="@drawable/bg_button_master"
+            android:fontFamily="@font/convergence"
+            android:text="@string/get_data_btn"
+            android:textAllCaps="false"
+            android:textColor="@color/text2"
+            android:textSize="@dimen/text_size_button"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tv_name_signup_id"
+            android:layout_width="@dimen/width_box_name_signup"
+            android:layout_height="@dimen/height_box_signup"
+            android:layout_below="@+id/btn_get_data_id"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="51dp"
+            android:background="#eee"
+            android:fontFamily="@font/convergence"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/tv_name_signup"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_input_box" />
+
+        <TextView
+            android:id="@+id/tv_mother_name_signup_id"
+            android:layout_width="@dimen/width_gover_signup"
+            android:layout_height="@dimen/height_box_signup"
+            android:layout_below="@+id/tv_name_signup_id"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp"
+            android:background="#eee"
+            android:fontFamily="@font/convergence"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/tv_mother_name_signup"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_input_box" />
+
+        <TextView
+            android:id="@+id/tv_gender_signup_id"
+            android:layout_width="@dimen/width_gender_signup"
+            android:layout_height="@dimen/height_box_signup"
+            android:layout_below="@+id/tv_name_signup_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:background="#eee"
+            android:fontFamily="@font/convergence"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/tv_gender_signup"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_input_box" />
+
+        <TextView
+            android:id="@+id/tv_governorate_signup_id"
+            android:layout_width="@dimen/width_gover_signup"
+            android:layout_height="@dimen/height_box_signup"
+            android:layout_below="@+id/tv_mother_name_signup_id"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp"
+            android:background="#eee"
+            android:fontFamily="@font/convergence"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/tv_governorate_signup"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_input_box" />
+
+        <TextView
+            android:id="@+id/tv_birthday_signup_id"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/height_box_signup"
+            android:layout_below="@+id/tv_gender_signup_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:background="#eee"
+            android:fontFamily="@font/convergence"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/tv_birthday_signup"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_input_box" />
+
+
+        <!--password box -->
+        <ImageView
+            android:id="@+id/lock_icon_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_password_layout"
+            android:layout_marginTop="-39dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/et_password_layout"
+            app:srcCompat="@drawable/lock_icon_login" />
+
+        <!--password box -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_password_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_phone_number_layout"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="55dp"
+            android:gravity="center"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_password_signup_id"
+                android:layout_width="@dimen/width_input_box"
+                android:layout_height="@dimen/height_input_box"
+                android:layout_below="@+id/tv_birthday_signup_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="90dp"
+                android:ems="10"
+                android:fontFamily="@font/convergence"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:textSize="@dimen/text_size_input_box"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_re_password_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_password_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_re_password_signup_id"
+                android:layout_width="@dimen/width_input_box"
+                android:layout_height="@dimen/height_input_box"
+                android:layout_below="@+id/et_password_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:ems="10"
+                android:fontFamily="@font/convergence"
+                android:hint="@string/hint_re_password"
+                android:inputType="textPassword"
+                android:textSize="@dimen/text_size_input_box" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_create_account_id"
+            android:layout_width="@dimen/width_btn_get_signup"
+            android:layout_height="@dimen/height_button"
+            android:layout_below="@+id/et_re_password_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_button_master"
+            android:fontFamily="@font/convergence"
+            android:text="@string/btn_create_account"
+            android:textAllCaps="false"
+            android:textColor="@color/text2"
+            android:textSize="@dimen/text_size_button" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_phone_number_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_governorate_signup_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="61dp">
+
+            <EditText
+                android:id="@+id/et_phone_number_id"
+                android:layout_width="@dimen/width_input_box"
+                android:layout_height="@dimen/height_input_box"
+                android:ems="10"
+                android:fontFamily="@font/convergence"
+                android:hint="@string/hint_phone_number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textSize="@dimen/text_size_input_box"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/et_personal_id_signup_id"
+            android:layout_width="@dimen/width_personal_id_signup"
+            android:layout_height="@dimen/height_input_box"
+            android:inputType="number"
+            android:layout_below="@+id/header_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:fontFamily="@font/convergence"
+            android:hint="@string/hint_personal_ID_number"
+            android:maxLength="10"
+            android:textSize="@dimen/text_size_input_box" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

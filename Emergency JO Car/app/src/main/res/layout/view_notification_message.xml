@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#C3C5C3C3"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_description_id"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_description_request"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/convergence"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Description"
+        android:textColor="@color/text1"
+        android:textSize="@dimen/text_size" />
+
+    <RelativeLayout
+        android:id="@+id/information_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_description_id"
+        android:layout_marginTop="10dp"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:id="@+id/tv_name_notification_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:padding="5dp"
+            android:text="name"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tv_national_number_notification_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_notification_id"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:text="National Number"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tv_governorate_notification_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_national_number_notification_id"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:text="governorate"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tv_phone_number_notification_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_governorate_notification_id"
+            android:layout_marginTop="30dp"
+            android:padding="5dp"
+            android:text="07812345678"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_time_request_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/information_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/convergence"
+        android:text="Time"
+        android:textSize="@dimen/text_size" />
+
+
+</RelativeLayout>

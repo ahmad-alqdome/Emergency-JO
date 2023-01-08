@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Emergency Jo Car</string>
+    <string name="btn_request">Request</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="available">Available</string>
+    <string name="un_available">UnAvailable</string>
+    <string name="hint_user_name">username</string>
+    <string name="hint_password">password</string>
+    <string name="btn_login">Login</string>
+    <string name="false_request">False Request</string>
+    <string name="remove_request">Remove Request</string>
+    <string name="done">Done</string>
+    <string name="message_change_mode">Will open map and change mode to UnAvailable</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="message_remove_request">Are You Sure To Remove Request From You</string>
+    <string name="message_done_request">Did you complete the request?</string>
+    <string name="message_false_request">Are You Sure To send Request To False Request?</string>
+    <string name="hint_report">Write Report</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+
+
+</resources>

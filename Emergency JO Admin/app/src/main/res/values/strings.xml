@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Emergency  Jo Admin</string>
+    <string name="hint_user_name">User Name</string>
+    <string name="hint_password">Password</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="app_name_emergency_jo">Emergency Jo</string>
+    <string name="requests_btn">Requests</string>
+    <string name="add_car">Add Car</string>
+    <string name="remove_car">Remove Car</string>
+    <string name="btn_setting">Setting</string>
+    <string name="cars_info">Cars Info</string>
+    <string name="edit_car">Edit Car</string>
+    <string name="false_requests">False requests</string>
+    <string name="show_location_notification">Show Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="car_number">Car Number</string>
+    <string name="car_name">Car Name</string>
+    <string name="car_model">Car Model</string>
+    <string name="hint_car_number">12\-3456789</string>
+    <string name="hint_car_name">Toyota</string>
+    <string name="hint_car_model">1999</string>
+    <string name="military_name">Military Name</string>
+    <string name="military_number">Military Number</string>
+    <string name="hint_military_number">0000000000</string>
+    <string name="hint_military_name">Military Name</string>
+    <string name="username_car">Username</string>
+    <string name="re_password">Re-Password</string>
+    <string name="btn_confirmation">Confirmation</string>
+    <string name="btn_get">Get</string>
+
+    <string name="message_empty_error">Can\'t Empty</string>
+    <string name="message_account_found">The Account is Found</string>
+    <string name="title_message_found">Found</string>
+    <string name="title_message_done">Done</string>
+    <string name="car_type">Car Type</string>
+    <string name="delete">Delete</string>
+    <string name="log_out">Log Out</string>
+
+    <array name="type_car">
+        <item>Ambulance</item>
+        <item>FireTruck</item>
+    </array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="cause_name">Case Name</string>
+    <string name="add_common_causes">Add Common Cases</string>
+    <string name="cause_description">Case Description</string>
+    <string name="enter_cause_description">Enter Case Description</string>
+    <string name="enter_cause_name">Case Name</string>
+    <string name="common_cases">Common Cases</string>
+    <string name="login">Login</string>
+    <string name="Add_common">Add</string>
+    <string name="send_request">Send Request</string>
+    <string name="show_location">Show Location</string>
+    <string name="remove_request">Remove Request</string>
+    <string name="false_request">False Request</string>
+    <string name="btn_accepted_request">Accepted Request</string>
+    <string name="search_car">Search for a car</string>
+    <string name="car_info">Car Information</string>
+    <string name="label_car_number">Car Number :</string>
+    <string name="label_car_name">Car Name :</string>
+    <string name="label_car_model">Car Model :</string>
+    <string name="label_military_name">Military Name :</string>
+    <string name="label_military_number">Military Number :</string>
+    <string name="label_username">Username :</string>
+    <string name="label_password">Password :</string>
+    <string name="label_car_type">Car Type</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_remove">Remove</string>
+    <string name="car">Car</string>
+
+
+    <!-- drawer nav -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="message_remove_request">You Are Sure To Remove Request</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--common cases-->
+    <string name="enter_option_1">Enter option 1</string>
+    <string name="enter_option_2">Enter option 2</string>
+    <string name="enter_option_3">Enter option 3</string>
+    <string name="option1">option 1</string>
+    <string name="option3">option 3</string>
+    <string name="option2">option 2</string>
+
+    <string name="message_false_request">Are You Sure To send Request To False Request?</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="accident_name">Accident Name</string>
+    <string name="enter_accident">Enter Accident</string>
+    <string name="hint_email">Email</string>
+    <string name="done">Done</string>
+    <string name="flase">False</string>
+    <string name="add_common_accident">Add Common Accident</string>
+    <string name="common_accident">Common Accident</string>
+
+
+</resources>

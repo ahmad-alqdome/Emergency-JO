@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dr_show_car_info_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/header_id"
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/header_id"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tv_password_show_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_military_number_show_id"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_toEndOf="@+id/tv_label_password_id"
+                    android:background="@drawable/bg_text_view"
+                    android:fontFamily="@font/convergence"
+                    android:text="12345@Aa"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_show_car_info_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="31dp"
+                    android:text="@string/car_info"
+                    android:fontFamily="@font/convergence"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header_admin" />
+
+
+                <TextView
+                    android:id="@+id/tv_label_car_number_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_show_car_info_id"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/label_car_number"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_car_number_show_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_show_car_info_id"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_toEndOf="@+id/tv_label_car_number_id"
+                    android:background="@drawable/bg_text_view"
+                    android:fontFamily="@font/convergence"
+                    android:text="22-222"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_label_car_name_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_show_car_info_id"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_toEndOf="@+id/tv_car_number_show_id"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/label_car_name"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_car_name_show_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_show_car_info_id"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_toEndOf="@+id/tv_label_car_name_id"
+                    android:background="@drawable/bg_text_view"
+                    android:fontFamily="@font/convergence"
+                    android:text="Kia"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+                <TextView
+                    android:id="@+id/tv_label_car_model_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_label_car_number_id"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/label_car_model"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_car_model_show_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_car_number_show_id"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_toEndOf="@+id/tv_label_car_model_id"
+                    android:background="@drawable/bg_text_view"
+                    android:fontFamily="@font/convergence"
+                    android:text="2000"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+
+                <TextView
+                    android:id="@+id/tv_label_car_type_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_label_car_number_id"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_toEndOf="@+id/tv_car_model_show_id"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/label_car_type"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_car_type_show_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_car_number_show_id"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_toEndOf="@+id/tv_label_car_type_id"
+                    android:background="@drawable/bg_text_view"
+                    android:fontFamily="@font/convergence"
+                    android:text="Ambulance"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_label_military_name_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_label_car_model_id"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/label_military_name"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_military_name_show_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_car_model_show_id"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_toEndOf="@+id/tv_label_military_name_id"
+                    android:background="@drawable/bg_text_view"
+                    android:fontFamily="@font/convergence"
+                    android:text="Ahmad Abd Alfatah Shtiwi"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_label_military_number_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_label_military_name_id"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/label_military_number"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+
+                <TextView
+                    android:id="@+id/tv_military_number_show_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_military_name_show_id"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_toEndOf="@+id/tv_label_military_number_id"
+                    android:background="@drawable/bg_text_view"
+                    android:fontFamily="@font/convergence"
+                    android:text="19025"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_label_username_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_label_military_number_id"
+                    android:layout_marginStart="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="70dp"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/label_username"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_username_show_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_military_number_show_id"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_toEndOf="@+id/tv_label_username_id"
+                    android:background="@drawable/bg_text_view"
+                    android:fontFamily="@font/convergence"
+                    android:text="22-22"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+                <TextView
+                    android:id="@+id/tv_label_password_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_label_military_number_id"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="100dp"
+                    android:layout_toEndOf="@+id/tv_username_show_id"
+                    android:fontFamily="@font/convergence"
+                    android:text="@string/label_password"
+                    android:textColor="@color/text1"
+                    android:textSize="@dimen/text_size_header" />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_side_list_id"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_side_list"
+        app:menu="@menu/side_list_navigation"
+
+        />
+</androidx.drawerlayout.widget.DrawerLayout>

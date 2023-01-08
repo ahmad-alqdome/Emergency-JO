@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_setting_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".UserSetting"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_change_phone_setting"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_id"
+            android:layout_alignStart="@+id/tv_phone_setting_id"
+            android:layout_alignEnd="@+id/tv_phone_setting_id"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="428dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/bg_button_master"
+            android:enabled="true"
+            android:fontFamily="@font/convergence"
+            android:text="@string/change_phone"
+            android:textAllCaps="false"
+            android:textColor="@color/text2"
+            android:textSize="@dimen/text_size_button"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_change_password_setting"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_id"
+            android:layout_alignStart="@+id/tv_phone_setting_id"
+            android:layout_alignEnd="@+id/tv_phone_setting_id"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="358dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/bg_button_master"
+            android:enabled="true"
+            android:fontFamily="@font/convergence"
+            android:text="@string/change_password"
+            android:textAllCaps="false"
+            android:textColor="@color/text2"
+            android:textSize="@dimen/text_size_button"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/tv_phone_setting_id"
+            android:layout_width="@dimen/width_box_name_signup"
+            android:layout_height="@dimen/height_box_signup"
+            android:layout_below="@+id/header_id"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="114dp"
+            android:layout_marginEnd="43dp"
+            android:background="#eee"
+            android:fontFamily="@font/convergence"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/hint_phone_number"
+            android:textColor="#616161"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_input_box" />
+
+        <include
+            android:id="@+id/header_id"
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/tv_name_setting_id"
+            android:layout_width="@dimen/width_box_name_signup"
+            android:layout_height="@dimen/height_box_signup"
+            android:layout_below="@+id/header_id"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="43dp"
+            android:background="#eee"
+            android:fontFamily="@font/convergence"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/tv_name_signup"
+            android:textColor="#616161"
+            android:textDirection="rtl"
+            android:textSize="@dimen/text_size_input_box" />
+
+
+        <TextView
+            android:id="@+id/change_lang_text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_phone_setting_id"
+            android:layout_alignStart="@+id/tv_phone_setting_id"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="73dp"
+            android:fontFamily="@font/convergence"
+            android:text="@string/language"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/rg_option"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_phone_setting_id"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@+id/change_lang_text">
+
+            <RadioButton
+                android:id="@+id/rb_en_language_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_description_box"
+                android:text="@string/english"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <RadioButton
+                android:id="@+id/rb_ar_language_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_description_box"
+                android:text="@string/arabic"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RadioGroup>
+
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_side_list_id"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_side_list"
+        app:menu="@menu/side_list_navigation"
+
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

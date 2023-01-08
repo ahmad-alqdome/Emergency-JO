@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_logo_id"
+            android:layout_width="@dimen/width_logo_login"
+            android:layout_height="@dimen/height_logo_login"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/emergency_logo" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_user_layout_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image_logo_id"
+            >
+
+            <EditText
+                android:id="@+id/et_username_login_id"
+                android:layout_width="@dimen/width_box_login"
+                android:layout_height="@dimen/height_box_login"
+                android:drawableStart="@drawable/user_icon_login"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/convergence"
+                android:gravity="center"
+                android:hint="@string/hint_user_name"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/text_size"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_password_layout_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/et_user_layout_id"
+            app:passwordToggleEnabled="true"
+
+            >
+
+            <EditText
+                android:id="@+id/et_password_login_id"
+                android:layout_width="@dimen/width_box_login"
+                android:layout_height="@dimen/height_box_login"
+                android:layout_below="@+id/et_user_layout_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:drawableStart="@drawable/lock_icon_login"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/convergence"
+                android:gravity="center"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:textSize="@dimen/text_size"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_login_id"
+            android:layout_width="@dimen/width_btn_login"
+            android:layout_height="@dimen/height_btn_login"
+            android:layout_below="@id/et_password_layout_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bg_button_master"
+            android:fontFamily="@font/convergence"
+            android:text="@string/btn_login"
+            android:textAllCaps="false"
+            android:textColor="@color/text2"
+            android:textSize="@dimen/text_size_btn" />
+    </RelativeLayout>
+</ScrollView>

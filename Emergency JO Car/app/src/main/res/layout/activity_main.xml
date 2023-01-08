@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/header_id"
+        layout="@layout/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp" />
+
+    <GridView
+
+        android:id="@+id/grid_show_request"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_id"
+        android:layout_marginTop="4dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="3dp"
+        android:scrollbarSize="0dp"
+        android:horizontalSpacing="3dp"
+        android:layout_toStartOf="@+id/btn_layout">
+
+    </GridView>
+
+    <ScrollView
+        android:id="@+id/btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_id"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btn_status_id"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/bg_available"
+                android:fontFamily="@font/convergence"
+                android:padding="5dp"
+                android:text="Available"
+                android:textAllCaps="false"
+                android:textColor="@color/text2"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btn_request_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_master"
+                android:fontFamily="@font/convergence"
+                android:text="@string/btn_request"
+                android:textAllCaps="false"
+                android:textColor="@color/text2"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_logout_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_button_master"
+                android:fontFamily="@font/convergence"
+                android:text="@string/btn_logout"
+                android:textAllCaps="false"
+                android:textColor="@color/text2"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/en_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/english" />
+
+                <RadioButton
+                    android:id="@+id/ar_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/arabic" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

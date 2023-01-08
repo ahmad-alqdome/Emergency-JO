@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="0dp"
+    tools:context=".Login">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--picture logo  -->
+        <ImageView
+            android:id="@+id/image_logo_id"
+            android:layout_width="@dimen/width_logo_login"
+            android:layout_height="@dimen/height_logo_login"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/emergency_logo2" />
+
+        <!--personal Id box -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_personal_id_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_logo_id"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+
+            >
+
+            <EditText
+                android:id="@+id/et_personal_id_login_id"
+                android:layout_width="@dimen/width_input_box"
+                android:layout_height="@dimen/height_input_box"
+                android:layout_below="@id/image_logo_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="65dp"
+                android:drawableStart="@drawable/user_icon_login"
+                android:fontFamily="@font/convergence"
+                android:gravity="center"
+                android:hint="@string/hint_personal_ID_number"
+                android:inputType="number|text"
+                android:maxLength="10"
+                android:padding="5dp"
+                android:textSize="@dimen/text_size_input_box"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--password box -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/et_password_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_personal_id_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_password_login_id"
+                android:layout_width="@dimen/width_input_box"
+                android:layout_height="@dimen/height_input_box"
+                android:layout_below="@id/et_personal_id_login_id"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="65dp"
+                android:drawableStart="@drawable/lock_icon_login"
+                android:fontFamily="@font/convergence"
+                android:gravity="center"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textSize="@dimen/text_size_input_box"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--forget password -->
+        <TextView
+            android:id="@+id/forget_password_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_password_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="0dp"
+            android:fontFamily="@font/convergence"
+            android:gravity="center"
+            android:text="@string/link_forgot_password"
+            android:textSize="@dimen/text_size_input_box" />
+
+        <!--login button -->
+
+        <!--signup button -->
+
+        <!--under picture -->
+
+        <Button
+            android:id="@+id/login_button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_below="@id/forget_password_id"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/bg_button_master"
+            android:enabled="false"
+            android:padding="5dp"
+            android:fontFamily="@font/convergence"
+            android:text="@string/btn_login"
+            android:textAllCaps="false"
+            android:textColor="@color/text2"
+            android:textSize="@dimen/text_size_button"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/direct_call_login_button_id"
+            android:layout_width="@dimen/width_button"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forget_password_id"
+            android:layout_marginTop="160dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_button_seconder"
+            android:fontFamily="@font/convergence"
+            android:text="@string/direct_call"
+            android:textAllCaps="false"
+            android:textColor="@color/master"
+            android:textSize="@dimen/text_size_button"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/signup_button_id"
+            android:layout_width="@dimen/width_button"
+            android:layout_height="@dimen/height_button"
+            android:layout_below="@id/forget_password_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/bg_button_seconder"
+            android:fontFamily="@font/convergence"
+            android:text="@string/btn_signUp"
+            android:textAllCaps="false"
+            android:textColor="@color/master"
+            android:textSize="@dimen/text_size_button"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_under_picture"
+            android:layout_below="@+id/direct_call_login_button_id"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/under_picture_login" />
+
+        <Button
+            android:id="@+id/btn_ar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_logo_id"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="9dp"
+            android:layout_toStartOf="@+id/image_logo_id"
+            android:background="#00000000"
+            android:text="@string/ar" />
+
+        <Button
+            android:id="@+id/btn_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_logo_id"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/image_logo_id"
+            android:background="#00FFFFFF"
+            android:text="@string/en" />
+
+    </RelativeLayout>
+
+</ScrollView>

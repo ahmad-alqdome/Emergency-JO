@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Emergency Jo</string>
+    <string name="hint_personal_ID_number">Personal ID Number</string>
+    <string name="name_app1" translatable="false">Emergency</string>
+    <string name="name_app2" translatable="false">Jo</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="link_forgot_password">forgot password ?</string>
+    <string name="btn_signUp">Sign Up</string>
+    <string name="hint_registration_number">000/000</string>
+    <string name="get_data_btn">Get Data</string>
+    <string name="tv_name_signup">Name</string>
+    <string name="tv_gender_signup">Gender</string>
+    <string name="tv_birthday_signup">Birthday</string>
+    <string name="tv_governorate_signup">Governorate</string>
+    <string name="tv_mother_name_signup">Mother Name</string>
+    <string name="hint_re_password">Re-Password</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="message_personal_id_empty">Enter Personal Id</string>
+    <string name="message_check_number_empty">Enter Qualifier Number</string>
+    <string name="message_strong_password">Password content {>8,0–9,a-z,A-Z,character}</string>
+    <string name="message_match_password">Password Not Match</string>
+    <string name="message_signup">Please sign Up</string>
+    <string name="message_not_found">Not Found</string>
+    <string name="message_sure_request">Are You Sure To Request</string>
+    <string name="message_sure_change_password">Are You sure to change password</string>
+    <string name="message_sure_change_phone">Are You sure to change your phone number</string>
+
+    <string name="have_request">You have Request</string>
+    <string name="message_wrong_information">Wrong Information</string>
+    <string name="ok">OK</string>
+    <string name="btn_cancel_alertdialog">Cancel</string>
+    <string name="btn_signup_alertdialog">Sign Up</string>
+    <string name="btn_request">Request</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="direct_call">Call 911</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="fire_fighter">Fire Fighter</string>
+    <string name="call">Call</string>
+    <string name="next_btn">Next</string>
+    <string name="home_side_list">Home</string>
+    <string name="safety_instructions_side_list">Safety Instructions</string>
+    <string name="setting_side_list">Setting</string>
+    <string name="log_out_side_list">Log Out</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="title_activity_users_home">UsersHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="request_Map">Request</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="request_car">Request Car</string>
+    <string name="language">Language :</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_phone">Change Phone</string>
+    <string name="check_information">Check Information</string>
+    <string name="new_phone">New Phone Number</string>
+    <string name="re_new_phone">Re - New Phone Number</string>
+    <string name="fireimage" translatable="false">FireImage</string>
+    <string name="stroke">Stroke</string>
+    <string name="map">Map</string>
+    <string name="fire">Fire</string>
+    <string name="set_description_about_the_action">Set Description About the Action</string>
+    <string name="accident">Accident</string>
+    <string name="dealing_with_fires">Dealing with fires</string>
+    <string name="medical_first_aid">Medical first aid</string>
+    <string name="choose_the_branch">Choose the branch</string>
+    <string name="change_phone_number">Change Phone Number</string>
+    <string name="direct_call_des">Please make sure that you are connected to the Internet. If there is no Internet, use the Quick Connect button at the bottom</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="en">EN</string>
+    <string name="ar">AR</string>
+    <string name="safety_1_1">إِذا كان الشخص قادراً على التنفس بقوة فعليه أن يستمر في السعال.</string>
+    <string name="safety_1_2">أما إِذا كان الشخص مختنقاً وغير قادر على الكلام أو البكاء أو الضحك بقوة فيجب عمل التالي:</string>
+    <string name="safety_1_3">1- الوقوف خلف الشخص المصاب.</string>
+    <string name="safety_1_4">2- وضع إحدى القدمين أمام الأخرى قليلاً لتحقيق التوازن.</string>
+    <string name="safety_1_5">3- لف الذراعين حول خصر الشخص المصاب.</string>
+    <string name="safety_1_6">4- إمالة الشخص المصاب إلى الأمام قليلاً.</string>
+    <string name="safety_1_7">5- عمل قبضة باليد الأُخرى ثم وضعها فوق منطقة السرة.</string>
+    <string name="safety_1_8">6- مسك القبضة باليد الأُخرى ثم توجيه ضغطة بقوة على البطن بسرعة نحو الأعلى.</string>
+    <string name="safety_1_9">7- القيام بمعدل 6 إِلى 10 ضغطات بطنية حتى يزول الجسم العالق.</string>
+    <string name="safety_1_10">أما في حال كان الشخص المصاب قد فقد وعيه فقم بالإنعاش القلبي الرئوي مع الضغطات الصدرية والأنفاس الانقاذية.</string>
+    <string name="safety_2_1">ينصح باتباع الخطوات التالية في حالة نشوب الحريق في المطبخ :</string>
+    <string name="safety_2_2">1- إذا نشب الحريق في الفرن أو الميكروويف ينصح بتركه مغلقاً وإطفاء مصدر الطاقة عنها، لأنَّ قلة الأكسجين في المكان سيطفئ النار.</string>
+    <string name="safety_2_3">2- إذا استمر الدخان بالصعود ينصح بالاتصال بالجهات المختصة.</string>
+    <string name="safety_2_4">3- إذا نشب الحريق في مقلاةٍ فوق الغاز ينصح بلبس قفّاز المطبخ ووضع غطاء المقلاة فوقها بسرعة ورفع المقلاة عن النار، وفي حال عدم التمكّن من وضع الغطاء ينصح باستخدام طفاية الحريق.</string>
+    <string name="safety_2_5">4- عدم استخدام الماء لإطفاء الحريق الناشب عن الزيوت؛ لأنَّ الزيت سيتناثر مسبباً انتشاراً للحريق ، وعوضاً عن الماء يمكن استخدم الكثير من البيكنج صودا، أو تغطية المقلاة بالغطاء إذا كانت النار صغيرة، أو وضع منشفة كبيرة مبللة فوق النار، أو استخدام طفاية الحريق.</string>
+    <string name="safety_2_6">5- عدم النفخ على النار لإطفائه، لأنّه يتسبب بإشعال ألسنة اللهب وانتشارها بصورةٍ أكبر، وفي حال كانت النار كبيرة ولا يمكن السيطرة عليها ينصح بالخروج سريعاً من المنزل والاتصال برقم الطوارئ</string>
+    <string name="safety_3_1">1- سحب أو الضغط على أقرب جهاز إنذار حريق في طريق الخروج من البناية</string>
+    <string name="safety_3_2">2- الحرص على تحسّس الأبواب قبل فتحها؛ للتأكد من عدم وجود حريق في الطرف الآخر من الباب</string>
+    <string name="safety_3_3">3- الانبطاح أو خفض الجسم وخاصةَ الرأس في حال وجود الدخان للتقليل من خطر استنشاقه</string>
+    <string name="safety_3_4">4- الزحف بجانب الحائط حتى الوصول إلى المخرج؛ لمنع الضياع ومعرفة المكان الذي يوجد به الشخص بالضبط</string>
+    <string name="safety_4_1">يتم اتباع خطوات تقنية (PASS) لإخماد النار باستخدام طفاية الحريق، واسم هذه التقنية مكّون من الحروف الأولى للخطوات التي يجب القيام بها لتشغيل طفاية الحريق، والخطوات هي :</string>
+    <string name="safety_4_2">1- سحب الدبوس (Pull pin) : بدايةً يتم سحب الدبوس الموجود في الجزء العلوي من طفاية الحريق بهدف كسر القفل، ثم التأكد من أن الطفاية تعمل من خلال اختبارها لمعرفة المدى الذي ينتشر فيه التيار.</string>
+    <string name="safety_4_3">2- تصويب الهدف (Aim) : الوقوف في مكان آمن ، وعلى بعد مسافة آمنة من الحريق، وتصويب منفذ أو فتحة الطفاية نحو قاعدة النار</string>
+    <string name="safety_4_4">3- ضغط المقبض (Squeeze): ضغط المقابض معاً بهدف إخراج محتوى طفاية الحريق.</string>
+    <string name="safety_4_5">4- إزاحة الفوهة (Sweep): إزاحة فوهة الطفاية من جانب إلى آخر عند الاقتراب من الحريق، مع الحرص على تصويبها نحو قاعدة النار بالتحديد</string>
+    <string name="safety_5_1">تشمل الإسعافات الأولية التي يجب تقديمها للشخص المصاب بالإغماء على الخطوات الآتية:</string>
+    <string name="safety_5_2">1- مساعدة الشخص على الاستلقاء على ظهره إذا كان الشخص جالسًا على كرسي.</string>
+    <string name="safety_5_3">2- دحرجة الشخص على الجانب في حال فقدانه للوعي، والتأكد من أنه يتنفس ومن نبضات القلب المنتظمة.</string>
+    <string name="safety_5_4">3- رفع قدمي الشخص أعلى من مستوى القلب بحوالي 30 سم إن أمكن لاستعادة تدفق الدم للدماغ.</string>
+    <string name="safety_5_5">4- فك الياقات والأحزمة وغيرها من الملابس الضيقة إذا كانت نوبة الإغماء ناتجة عن الحرارة، ومحاولة تبريد الشخص عن طريق مسحه بقطعة قماش مبللة أو تهويته.</string>
+    <string name="safety_5_6">5- التأكد من وجود الكثير من الهواء النقي والطلب من الآخرين الابتعاد وفتح النافذة إذا كان الشخص في غرفة.</string>
+    <string name="safety_5_7">6- تقييم الشخص بحثًا عن أي إصابات محتملة أو كدمات في حال سقوطه.</string>
+    <string name="safety_5_8">7- الاتصال برقم الطوارئ إذا لم يستعيد الشخص وعيه في غضون دقيقة واحدة.</string>
+    <string name="safety_5_9">ويجدر التنويه أنه في حال عدم تنفس الشخص المغمى عليه، يجب البدء في إجراء الإنعاش القلبي الرئوي والاتصال على الطوارئ فورًا، والاستمرار في إجراء الإنعاش القلبي الرئوي، حتى يستعيد الشخص تنفسه أو تصل المساعدة.</string>
+    <string name="other">other</string>
+    <string name="option_1" translatable="false">option 1</string>
+    <string name="option_2" translatable="false">option 2</string>
+    <string name="option_3" translatable="false">option 3</string>
+    <string name="firefighter">FireFighter</string>
+    <string name="fire_truck">Fire Truck</string>
+
+</resources>

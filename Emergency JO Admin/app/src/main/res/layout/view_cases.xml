@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C3C5C3C3"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_case_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/convergence"
+        android:text="@string/cause_name"
+        android:textColor="@color/text1"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tv_option_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_case_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/convergence"
+        android:text="@string/option1"
+        android:textColor="@color/text1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_option_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_option_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/convergence"
+        android:text="@string/option2"
+        android:textColor="@color/text1"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_option_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_option_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/convergence"
+        android:text="@string/option3"
+        android:textColor="@color/text1"
+        android:textSize="14sp" />
+
+</RelativeLayout>

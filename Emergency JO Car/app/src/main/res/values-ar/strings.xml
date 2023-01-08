@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Emergency Jo Car</string>
+    <string name="btn_request">طلب</string>
+    <string name="btn_logout">تسجيل خروج</string>
+    <string name="available">متاح</string>
+    <string name="un_available">غير متاح</string>
+    <string name="hint_user_name">اسم المستخدم</string>
+    <string name="hint_password">كلمة المرور</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="false_request">بلاغ كاذب</string>
+    <string name="remove_request">ازالة الطلب</string>
+    <string name="done">تمت المهمة</string>
+    <string name="message_change_mode">سيتم فتح الموقع وتحويل الوضع الى غير متاح</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="message_remove_request">هل انت متاكد من ازالة الطلب من عندك</string>
+    <string name="message_done_request">هل اتممت هذا الطلب</string>
+    <string name="message_false_request">هل انت متاكد من ارساله الى البلاغات الكاذبة</string>
+
+    <string name="hint_report">اكتب تقرير</string>
+    <string name="send">ارسال</string>
+    <string name="cancel">الغاء</string>
+    <string name="arabic">عربي</string>
+    <string name="english">انجليزي</string>
+
+</resources>

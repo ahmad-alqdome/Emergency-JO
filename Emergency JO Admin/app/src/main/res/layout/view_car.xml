@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3C5C3C3"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_car_type_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_car_name_view_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/convergence"
+        android:text="car type"
+        android:textColor="@color/text1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_military_name_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_car_type_view_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/convergence"
+        android:text="Miltary name  andada alqdome "
+        android:textColor="@color/text1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_car_number_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/convergence"
+        android:text="car number"
+        android:textColor="@color/text1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_car_name_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_car_number_view_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/convergence"
+        android:text="car name"
+        android:textColor="@color/text1"
+        android:textSize="20sp" />
+</RelativeLayout>

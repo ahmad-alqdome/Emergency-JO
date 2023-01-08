@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "1012243648039",
+    "firebase_url": "https://emergency-jo-f900c-default-rtdb.firebaseio.com",
+    "project_id": "emergency-jo-f900c",
+    "storage_bucket": "emergency-jo-f900c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012243648039:android:99248dfce27462950f0802",
+        "android_client_info": {
+          "package_name": "com.example.car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012243648039-mfh8tlgt3f5f19kqgrbjuuv6i6h8coiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.car",
+            "certificate_hash": "1b85099014a2007b1d33156d777643d3b573f368"
+          }
+        },
+        {
+          "client_id": "1012243648039-odt66d0483f772to7fns14018rutgeqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnSov_uR31GHb38ojMUodJ5WQYMxFiNSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012243648039-odt66d0483f772to7fns14018rutgeqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012243648039:android:e68fb97a1b1053770f0802",
+        "android_client_info": {
+          "package_name": "com.example.emergencyjo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012243648039-38olkfd0c5l0dbf919n52a6kf7aolgno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emergencyjo",
+            "certificate_hash": "1b85099014a2007b1d33156d777643d3b573f368"
+          }
+        },
+        {
+          "client_id": "1012243648039-odt66d0483f772to7fns14018rutgeqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnSov_uR31GHb38ojMUodJ5WQYMxFiNSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012243648039-odt66d0483f772to7fns14018rutgeqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012243648039:android:f73a62a0324f9f7c0f0802",
+        "android_client_info": {
+          "package_name": "com.example.emergencyjoadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012243648039-scrhupsnb553krjthqu2203ksol83vnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emergencyjoadmin",
+            "certificate_hash": "1b85099014a2007b1d33156d777643d3b573f368"
+          }
+        },
+        {
+          "client_id": "1012243648039-odt66d0483f772to7fns14018rutgeqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnSov_uR31GHb38ojMUodJ5WQYMxFiNSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012243648039-odt66d0483f772to7fns14018rutgeqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012243648039:android:8204a72f96104b2e0f0802",
+        "android_client_info": {
+          "package_name": "com.example.emergencyjocar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012243648039-d1cusrn0r1f4rc34d7mdcmm9f8vovo0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emergencyjocar",
+            "certificate_hash": "1b85099014a2007b1d33156d777643d3b573f368"
+          }
+        },
+        {
+          "client_id": "1012243648039-odt66d0483f772to7fns14018rutgeqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnSov_uR31GHb38ojMUodJ5WQYMxFiNSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012243648039-odt66d0483f772to7fns14018rutgeqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

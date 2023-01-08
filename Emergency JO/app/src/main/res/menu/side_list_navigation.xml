@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/home_side_list_id"
+    android:title="@string/home_side_list"
+    android:icon="@drawable/home_icon_side_list"
+    />
+
+    <item
+        android:id="@+id/safety_Instructions_side_list_id"
+        android:title="@string/safety_instructions_side_list"
+        android:icon="@drawable/instruction_side_list_icon"
+
+        />
+
+    <item
+    android:id="@+id/setting_side_list_id"
+    android:title="@string/setting_side_list"
+    android:icon="@drawable/setting_side_list_icon"
+    />
+
+    <item
+        android:title="@string/log_out_side_list"
+        android:id="@+id/logout_side_list_id"
+        android:icon="@drawable/logout_side_list_icon"/>
+</menu>
